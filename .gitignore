@@ -1,0 +1,6 @@
+
+*.v2
+Sample.ASPDotNETCore/.vs/Sample.ASPDotNETCore/v16/.suo
+Sample.ASPDotNETCore/.vs/Sample.ASPDotNETCore/config/applicationhost.config
+Sample.ASPDotNETCore/bin
+Sample.ASPDotNETCore/obj
