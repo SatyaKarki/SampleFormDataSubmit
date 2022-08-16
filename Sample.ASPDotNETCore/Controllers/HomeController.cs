@@ -43,13 +43,18 @@ namespace Sample.ASPDotNETCore.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddStudent([FromBody] StudentModel student)
+     public async Task<IActionResult> AddStudent([FromBody] StudentModel student)
         {
             if (!ModelState.IsValid)
                 return BadRequest("Enter required fields");
             //Insert code;
             return this.Ok($"Form Data received!");
-        }      
+        }
+
+        public IActionResult CreateTest()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
