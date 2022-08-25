@@ -13,7 +13,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: DotNetCoreCLI@2 
+- task: UseDotNet@2
   displayName: 'Use .NET Core 5 sdk'
   inputs:
     version: '5.0.x'
